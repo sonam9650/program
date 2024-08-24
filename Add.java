@@ -49,5 +49,85 @@ public class Add {
 
     }
      
-          
+     
+    public void checkevennum(){
+         
+        Scanner scanner =new Scanner(System.in);
+        System.out.println("Enter Number: ");
+
+        int evennumber =scanner.nextInt();
+
+        int check_even = evennumber % 2;
+        if(check_even == 0){
+            System.out.println("Even number");
+        }
+        else{
+            System.out.println("Odd number");
+        }
+
+    }
+
+
+
+    public void greaternum(){
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter first number: ");
+        int firstno =scanner.nextInt();
+
+        System.out.println("Enter Second number: ");
+        int secondno =scanner.nextInt();
+
+        if (firstno > secondno) {
+            System.out.println(firstno + " is greater than :" + secondno);
+        }
+        else if (firstno == secondno){
+            System.out.println(firstno + " Both are Equal");
+        }
+        else {
+            System.out.println(firstno + " is smaller than :" + secondno);
+        }  
+
+    }
+    
+    public void multiplyfloat() {
+           
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter first Float number: ");
+        
+        float num1= scanner.nextFloat();
+
+        System.out.println("Enter Second Float number: ");
+        float num2 = scanner.nextFloat();
+
+        float Result = num1 * num2;
+        System.out.println(Result);
+
+
+    }  
+
+    public void swapnumbers(){
+
+        int a = 5;
+        int b = 6;
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        System.out.println(a=a+b);
+        System.out.println(b=a-b);
+        System.out.println(a=a-b);
+
+        System.out.println("After Swap");
+
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+        
+    }
+
+    
+    
 }
+
+

@@ -5,10 +5,14 @@ public static void main(String[] args) {
     hello.print();
 
     Add add = new Add();
-    add.sum();
+    /* add.sum();
     add.multiply();
     add.usersum();
     add.usermultiply();
+    add.checkevennum();
+    add.greaternum();*/
+    add.multiplyfloat();
+    add.swapnumbers();
 }
     
 }
