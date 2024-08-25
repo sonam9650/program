@@ -1,21 +1,24 @@
 import java.util.Scanner;
 
 
+
 public class Add {
 
     public void sum(){
         int a = 7;
         int b = 10;
+        String name="Ram";
         int c = a + b;
         System.out.println(c);
     }
+
     public void multiply(){
         int a = 10;
         int b = 20;
         int c = a * b;
         System.out.println(c);
+        System.out.println(Name);
     }
-
     public void usersum(){
 
         Scanner scanner = new Scanner(System.in);
